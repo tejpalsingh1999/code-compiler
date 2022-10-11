@@ -60,7 +60,7 @@ function LeftPane() {
   return (
     <StyledLeftPane>
       <ContentContainer>
-        <Logo src="" alt="" />
+        <Logo src="/logo.png" alt="" />
         <MainHeading>
           <span>Code</span> Deck
         </MainHeading>
