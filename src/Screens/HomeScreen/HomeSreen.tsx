@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Modal from "../../components/Modal";
 import LeftPane from "./LeftPane";
 import RightPane from "./RightPane";
 
@@ -14,6 +15,7 @@ function HomeSreen() {
     <HomeScreenContainer>
       <LeftPane />
       <RightPane />
+      <Modal />
     </HomeScreenContainer>
   );
 }
